@@ -1,0 +1,27 @@
+{
+  "name": "cse341-web-services",
+  "version": "1.0.0",
+  "description": "This repository contains a collection of code created as part of the coursework for CSE 341 Web Services at Brigham Young University Idaho. The code demonstrates various web service concepts and implementations covered in the course curriculum.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "format": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js --exec \"npm run lint && node\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annaabbott/cse341-web-services.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annaabbott/cse341-web-services/issues"
+  },
+  "homepage": "https://github.com/annaabbott/cse341-web-services#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
